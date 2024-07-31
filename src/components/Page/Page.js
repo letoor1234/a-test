@@ -8,7 +8,7 @@ const Page = ({ cards }) => {
         We make creative media <br /> that{" "}
         <span className="text-[#506BCA]">adds value</span>
       </h1>
-      <div className="mx-auto sm:grid-cols-2 md:grid-cols-3 grid gap-4 mb-6">
+      <div className="mx-auto grid-cols-1 md:grid-cols-3 grid gap-4 mb-6">
         {cards.map((card, index) => (
           <Card key={index} {...card} />
         ))}
